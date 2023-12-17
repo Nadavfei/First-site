@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    font-family: cursive;
+}
+.TitleText{
+    padding-top: 0px;
+}
+h1{
+    font-size: 60px;
+    font-family: fantasy;
+    color: darkcyan;
+    margin: 1% 0;
+}
+h2{
+    font-size: 30px;
+    color: blueviolet;
+    margin: 1% 0;
+}
+.TopSec{
+    background-image: url(images/View.jpeg);
+    height: 500px;
+    padding: auto;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+hr {
+    border: dotted #512804 6px;
+    border-bottom: none;
+    width: 12.5%;
+    margin: 100px auto;
+}
+#waiter{
+    height: 200;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+.Waitering .content {
+    display: flex;
+    align-items: center;
+}
+.Waitering #waiter {
+    margin-right: 20px;
+}
+.Parent{
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+#game{
+    border-radius: 50%;
+    padding-right: 10px;
+}
+#hikes{
+    border-radius: 50%;
+    padding-right: 10px;
+}
+.hike{
+    display: flex;
+    align-items: center;
+}
+.content {
+    display: flex;
+    align-items: center;
+}
+#finish{
+    background-color: rgb(93, 30, 210); 
+    padding: 20px 0 20px
+}
+.button{
+    font-size: 25px;
+    background-color: blueviolet;
+    border-radius: 8px;
+    color: aqua;
+    padding: 5px 5px 5px 5px;
+    }
